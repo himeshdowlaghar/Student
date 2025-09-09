@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fitness Tracker App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Fitness Tracker</h1>
+    <nav>
+      <a href="#">Profile</a>
+      <a href="#">Workouts</a>
+      <a href="#">Diet</a>
+      <a href="#">Goals</a>
+      <a href="#">Progress</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile">
+      <h2>User Profile</h2>
+      <form>
+        <label>Name: <input type="text" placeholder="John Doe"></label>
+        <label>Age: <input type="number" placeholder="30"></label>
+        <label>Weight (kg): <input type="number" placeholder="70"></label>
+        <label>Height (cm): <input type="number" placeholder="175"></label>
+        <button type="submit">Update Profile</button>
+      </form>
+    </section>
+
+    <section class="workout">
+      <h2>Workout Logging</h2>
+      <form>
+        <label>Exercise: <input type="text" placeholder="Running"></label>
+        <label>Duration (min): <input type="number" placeholder="30"></label>
+        <label>Calories Burned: <input type="number" placeholder="250"></label>
+        <button type="submit">Log Workout</button>
+      </form>
+    </section>
+
+    <section class="diet">
+      <h2>Diet Chart</h2>
+      <form>
+        <label>Meal: <input type="text" placeholder="Breakfast"></label>
+        <label>Calories: <input type="number" placeholder="500"></label>
+        <label>Protein (g): <input type="number"></label>
+        <label>Carbs (g): <input type="number"></label>
+        <label>Fats (g): <input type="number"></label>
+        <button type="submit">Log Meal</button>
+      </form>
+    </section>
+
+    <section class="goals">
+      <h2>Set Goals</h2>
+      <form>
+        <label>Goal Type:
+          <select>
+            <option>Weight Loss</option>
+            <option>Muscle Gain</option>
+            <option>Maintenance</option>
+          </select>
+        </label>
+        <label>Target Weight (kg): <input type="number" placeholder="65"></label>
+        <button type="submit">Set Goal</button>
+      </form>
+    </section>
+
+    <section class="progress">
+      <h2>Progress Graphs</h2>
+      <div class="graph-placeholder">[Graph of Weight Progress]</div>
+      <div class="graph-placeholder">[Graph of Workout Frequency]</div>
+      <div class="graph-placeholder">[Graph of Diet Tracking]</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Fitness Tracker App</p>
+  </footer>
+</body>
+</html>
